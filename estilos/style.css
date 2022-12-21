@@ -3,7 +3,12 @@
 * {
     padding: 0;
     margin: 0;
+    
 
+}
+
+body {
+    overflow-x: hidden;
 }
 
 
@@ -124,7 +129,6 @@
     background-image: url(../imagens/full-banner3.png);
     width: 100vw;
     height: 400px;
-    margin-left 
     
 
 }
@@ -290,10 +294,12 @@
 .slide:hover {
     box-shadow: 2px 2px 10px black;
     
+    
 }
 
 .lislide:hover p {
-    font-size: 1.1em;
+    color: rgb(8, 8, 142);
+    text-shadow: 1px 1px 3px grey;
     
     
 }

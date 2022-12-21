@@ -1,0 +1,766 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+#pre-cabecalho {
+    background-color: black;
+    width: 100vw;
+    padding: 10px 0;
+    
+}
+
+#pre-cabecalho p {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    line-height: 20px;
+
+}
+
+
+#saibamais {
+    border: 1px solid white;
+    padding: 1px;
+    margin-left: 8px;
+
+}
+
+#saibamais:hover {
+    background-color: rgb(148, 148, 64);
+    text-decoration: underline;
+    border: 1px solid rgb(88, 88, 35);
+    border-radius: 5px;
+    
+}
+
+.cabecalho {
+    width: 80vw;
+    margin: auto;
+    
+}
+
+#logo {
+    width: 100px;
+    margin-top: 10px;
+    
+    
+}
+
+#ul-cabecalho {
+    
+    text-align: right;
+
+}
+
+.li-cabecalho {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    padding: 5px;
+    
+    
+}
+
+.li-cabecalho:hover {
+    background-color: rgb(148, 148, 64);
+    color: white;
+    
+}
+
+#ipesquisa-site { 
+    display: block;
+    width: 80vw;
+    margin: 10px 0;
+    font-size: 1.3em;
+    
+
+}
+
+#menu-principal {
+    margin-top: 15px;
+    text-align: center;
+    margin: 15px auto;
+    
+}
+
+.menu-principal {
+    display: inline-block;
+    padding: 5px;
+
+    
+}
+
+.menu-principal a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    
+}
+
+.menu-principal:hover {
+    background-color: rgb(201, 201, 142);
+    color: white;
+
+}
+
+
+#corpo-principal {
+    width: 80vw;
+    margin: auto;
+
+}
+
+#rodape {
+    background-color: lightgrey;
+    width: 100vw;
+    height: 100px;
+    margin-top: 50px;
+    position: absolute;
+    
+}
+
+#rodape p a {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(159, 9, 9);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#rodape p {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+#redes-sociais {
+    text-align: center;
+    margin: 10px;  
+}
+
+#redes-sociais p {
+    margin-bottom: 10px;
+}
+
+.img-rodape {
+    width: 30px;
+}
+
+#produtos-calcas ul {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#produtos-calcas li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+#liverde:hover {
+    background-image: url(../imagens/calcas/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#liverde:hover img {
+    opacity: 0;
+}
+
+
+#liverde:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#libranco:hover {
+    background-image: url(../imagens/calcas/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#libranco:hover img {
+    opacity: 0;
+}
+
+
+#libranco:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#lilaranja:hover {
+    background-image: url(../imagens/calcas/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#lilaranja:hover img {
+    opacity: 0;
+}
+
+
+#lilaranja:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#produtos-kimonos ul {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#produtos-kimonos li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#limalha:hover {
+    background-image: url(../imagens/kimonos/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#limalha:hover img {
+    opacity: 0;
+}
+
+
+#limalha:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#lilurex:hover {
+    background-image: url(../imagens/kimonos/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#lilurex:hover img {
+    opacity: 0;
+}
+
+
+#lilurex:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#produtos-macaquinhos ul {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#produtos-macaquinhos li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#lioncapreto:hover {
+    background-image: url(../imagens/macaquinhos/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#lioncapreto:hover img {
+    opacity: 0;
+}
+
+
+#lioncapreto:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#lioncavermelho:hover {
+    background-image: url(../imagens/macaquinhos/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#lioncavermelho:hover img {
+    opacity: 0;
+}
+
+
+#lioncavermelho:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#produtos-shirts ul {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#produtos-shirts li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#liexposed:hover {
+    background-image: url(../imagens/shirts/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#liexposed:hover img {
+    opacity: 0;
+}
+
+
+#liexposed:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#lilatina:hover {
+    background-image: url(../imagens/shirts/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#lilatina:hover img {
+    opacity: 0;
+}
+
+
+#lilatina:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#produtos-shortinhos ul {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#produtos-shortinhos li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#lishort1:hover {
+    background-image: url(../imagens/shortinhos/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#lishort1:hover img {
+    opacity: 0;
+}
+
+
+#lishort1:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#lishort2:hover {
+    background-image: url(../imagens/shortinhos/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#lishort2:hover img {
+    opacity: 0;
+}
+
+
+#lishort2:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#lishort3:hover {
+    background-image: url(../imagens/shortinhos/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#lishort3:hover img {
+    opacity: 0;
+}
+
+
+#lishort3:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#produtos-vestidos ul {
+    text-align: center;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+
+#produtos-vestidos li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#limaya:hover {
+    background-image: url(../imagens/vestidos/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#limaya:hover img {
+    opacity: 0;
+}
+
+
+#limaya:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#litropicana:hover {
+    background-image: url(../imagens/vestidos/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#litropicana:hover img {
+    opacity: 0;
+}
+
+
+#litropicana:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#litule:hover {
+    background-image: url(../imagens/vestidos/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#litule:hover img {
+    opacity: 0;
+}
+
+
+#litule:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#produtos-blusas ul {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#produtos-blusas li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#liblusatule:hover {
+    background-image: url(../imagens/blusas/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#liblusatule:hover img {
+    opacity: 0;
+}
+
+
+#liblusatule:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#liflorata:hover {
+    background-image: url(../imagens/blusas/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#liflorata:hover img {
+    opacity: 0;
+}
+
+
+#liflorata:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#produtos-croppeds ul {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#produtos-croppeds li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#liblusatropicana:hover {
+    background-image: url(../imagens/croppeds/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#liblusatropicana:hover img {
+    opacity: 0;
+}
+
+
+#liblusatropicana:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#litoplurex:hover {
+    background-image: url(../imagens/croppeds/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#litoplurex:hover img {
+    opacity: 0;
+}
+
+
+#litoplurex:hover p {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(148, 148, 64);
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    
+
+}
+
+#quem-somos {
+    text-align: center;
+    width: 60vw;
+    margin: 30px auto 0px auto;
+    border: 2px solid black;
+    border-radius: 5%;
+    box-shadow: 2px 2px 10px grey;
+    
+}
+
+#quem-somos h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+
+#quem-somos p {
+    text-align: justify;
+    text-indent: 40px;
+    padding: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}

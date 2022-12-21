@@ -1,0 +1,360 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+#pre-cabecalho {
+    background-color: black;
+    width: 100vw;
+    padding: 10px 0;
+    
+}
+
+#pre-cabecalho p {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    line-height: 20px;
+
+}
+
+
+#saibamais {
+    border: 1px solid white;
+    padding: 1px;
+    margin-left: 8px;
+
+}
+
+#saibamais:hover {
+    background-color: rgb(148, 148, 64);
+    text-decoration: underline;
+    border: 1px solid rgb(88, 88, 35);
+    border-radius: 5px;
+    
+}
+
+.cabecalho {
+    width: 80vw;
+    margin: auto;
+    
+}
+
+#logo {
+    width: 100px;
+    margin-top: 10px;
+    
+    
+}
+
+#ul-cabecalho {
+    
+    text-align: right;
+
+}
+
+.li-cabecalho {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    padding: 5px;
+    
+    
+}
+
+.li-cabecalho:hover {
+    background-color: rgb(148, 148, 64);
+    color: white;
+    
+}
+
+#ipesquisa-site { 
+    display: block;
+    width: 80vw;
+    margin: 10px 0;
+    font-size: 1.3em;
+    
+
+}
+
+#menu-principal {
+    margin-top: 15px;
+    text-align: center;
+    margin: 15px auto;
+    
+}
+
+.menu-principal {
+    display: inline-block;
+    padding: 5px;
+
+    
+}
+
+.menu-principal a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    
+}
+
+.menu-principal:hover {
+    background-color: rgb(201, 201, 142);
+    color: white;
+
+}
+
+#corpo-principal {
+    width: 100vw;
+    margin: auto;
+    
+}
+
+#full-banner {
+    background-image: url(../imagens/full-banner3.png);
+    width: 100vw;
+    height: 400px;
+    margin-left 
+    
+
+}
+
+#full-banner:hover {
+    background-image: url(../imagens/full-banner2.png);
+    width: 100vw;
+    transition: 0.5s;
+}
+
+#mini-banner {
+    width: 80vw;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    
+}
+
+#mini-banner h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(54, 54, 54);
+    margin: 20px 0;
+    
+}
+
+#mini-banner li {
+    display: inline-block;
+    
+}
+
+.mini-banner {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 380px;
+    text-align: center;
+    
+}
+
+#mini-banner1:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+#mini-banner2:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+
+#mini-banner3:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+
+#produtos-novidades {
+    margin: auto;
+    text-align: center;
+    width: 80vw;
+}
+
+
+#produtos-novidades h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(54, 54, 54);
+    margin-bottom: 15px;
+
+
+}
+
+#novidades {
+    
+    text-align: center;
+    
+}
+
+.linovidade {
+    display: inline-block;
+    text-align: center;
+    width: 252px;
+    margin-right: 0;
+    padding: 15px;
+    
+}
+
+.preco-produto {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: rgb(54, 54, 54);
+}
+
+#novidades a {
+    text-decoration: none;
+}
+
+.linovidade:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+#slide-departamento {
+    text-align: center;
+    width: 80vw;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+#slide-departamento h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(54, 54, 54);
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.lislide {
+    display: inline-block;
+    padding: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-decoration: none;
+
+}
+
+.lislide a {
+    text-decoration: none;
+
+}
+
+.lislide p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(54, 54, 54);
+    text-transform: uppercase;
+}
+
+
+.slide {
+    border-radius: 50%;
+    width: 100px;
+    box-sizing: border-box;
+    
+}
+
+.slide:hover {
+    box-shadow: 2px 2px 10px black;
+    
+}
+
+.lislide:hover p {
+    font-size: 1.1em;
+    
+    
+}
+
+.lislide:hover img {
+    box-shadow: 2px 2px 10px black;
+    
+}
+
+#dicas-moda {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#dicas-moda iframe {
+    border: 3px solid  rgb(148, 148, 64);
+    box-shadow: 2px 2px 10px black;
+    width: 700;
+    height: 394px;
+    margin-top: 30px;
+}
+
+#rodape {
+    background-color: lightgrey;
+    width: 100vw;
+    height: 100px;
+    margin-top: 50px;
+    position: absolute;
+
+    
+}
+
+#rodape p a {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(159, 9, 9);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#rodape p {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    vertical-align: middle;
+
+}
+
+#redes-sociais {
+    text-align: center;
+    margin: 10px;  
+}
+
+#redes-sociais p {
+    margin-bottom: 10px;
+}
+
+.img-rodape {
+    width: 30px;
+}
+

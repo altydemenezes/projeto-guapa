@@ -10,6 +10,14 @@ Grandes telas: acima de 1200px
 
 @media screen and (max-width: 768px) {
 
+    
+    .menu-principal {
+        display: inline;
+        padding: 0px;
+        width: 150px;
+    }
+    
+
     #full-banner {
         background-image: url(../imagens/bannermobile1.png);
         width: 100vw;

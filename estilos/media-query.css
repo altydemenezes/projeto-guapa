@@ -18,6 +18,14 @@ Grandes telas: acima de 1200px
     
     }
 
+    #dicas-moda iframe {
+        border: 2px solid  rgb(148, 148, 64);
+        box-shadow: 1px 1px 5px black;
+        width: 400px;
+        height: 225px;
+        margin-top: 30px;
+    }
+
 }
 
 /*

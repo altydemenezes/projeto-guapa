@@ -24,8 +24,17 @@ Grandes telas: acima de 1200px
         transition: 0.5s;
     }
 
+    #produtos-novidades h2 {
+        font-size: 1.3em;   
+    
+    }
+
     #slide-departamento {
         width: 100vw;
+    }
+
+    #slide-departamento h2 {
+        font-size: 1.3em;
     }
     
     
@@ -33,6 +42,24 @@ Grandes telas: acima de 1200px
         border-radius: 50%;
         width: 50px;
         box-sizing: border-box;
+        
+    }
+
+    .slide:hover {
+        box-shadow: none;
+        
+        
+    }
+    
+    .lislide:hover p {
+        color: rgb(54, 54, 54);
+        text-shadow: none;
+        
+        
+    }
+    
+    .lislide:hover img {
+        box-shadow: none;
         
     }
 

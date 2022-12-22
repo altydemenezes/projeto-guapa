@@ -764,3 +764,32 @@ a {
     font-weight: bold;
     color: black;
 }
+
+
+
+#formulario {
+    width: 80vw;
+    margin: auto;
+    
+}
+
+form {
+    margin: 40px 0;
+    display: block;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    
+}
+
+
+form input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    width: 500px;
+}

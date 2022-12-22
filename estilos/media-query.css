@@ -43,13 +43,17 @@ Grandes telas: acima de 1200px
         font-size: 1.3em;   
     }
 
-    .linovidade {
+    .linovidades {
         display: inline-block;
-        width: 200px;
-        height: 320;
-        padding: 15px;
-        
     }
+
+
+    .novidades {
+            width: 120px;
+            height: 208px;
+            padding: 5px;
+            
+        }
 
     #slide-departamento {
         width: 100vw;

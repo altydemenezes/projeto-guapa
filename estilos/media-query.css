@@ -10,11 +10,18 @@ Grandes telas: acima de 1200px
 
 @media screen and (max-width: 768px) {
 
-    
+    .li-cabecalho {
+        display: inline-block;
+        font-size: 16px;
+        
+    }
+
+
     .menu-principal {
         display: inline;
         padding: 0px;
         width: 150px;
+        font-size: 12px;
     }
     
 

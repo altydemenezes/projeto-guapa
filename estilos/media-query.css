@@ -23,8 +23,19 @@ Grandes telas: acima de 1200px
         transition: 0.5s;
     }
 
+    #mini-banner {
+        width: 100vw;
+        
+    }
+
     #mini-banner h2 {
         font-size: 1.3em;
+    }
+
+    .mini-banner {
+        width: 100px;
+        height: 105px;
+        
     }
 
     #produtos-novidades h2 {

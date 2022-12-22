@@ -39,21 +39,29 @@ Grandes telas: acima de 1200px
         
     }
 
+    #produtos-novidades {
+        width: 100vw;   
+    }
+
     #produtos-novidades h2 {
         font-size: 1.3em;   
     }
 
-    .linovidades {
+    .linovidade {
         display: inline-block;
+        text-align: center;
+        width: 200px;
+        margin-right: 0;
+        padding: 10px;
     }
-
 
     .novidades {
             width: 120px;
             height: 208px;
             padding: 5px;
-            
-        }
+            display: inline-block;
+            margin: 0;        
+    }
 
     #slide-departamento {
         width: 100vw;

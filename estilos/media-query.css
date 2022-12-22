@@ -35,6 +35,7 @@ Grandes telas: acima de 1200px
     .mini-banner {
         width: 120px;
         height: 126px;
+        padding: 5px;
         
     }
 

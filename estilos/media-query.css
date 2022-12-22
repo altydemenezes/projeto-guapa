@@ -24,17 +24,9 @@ Grandes telas: acima de 1200px
         transition: 0.5s;
     }
 
-    #dicas-moda iframe {
-        border: 2px solid  rgb(148, 148, 64);
-        box-shadow: 1px 1px 5px black;
-        width: 300px;
-        margin-top: 30px;
-    }
-
     #slide-departamento {
         width: 100vw;
     }
-    
     
     
     .slide {
@@ -43,6 +35,18 @@ Grandes telas: acima de 1200px
         box-sizing: border-box;
         
     }
+
+    #dicas-moda {
+        width: 100vw;
+    }
+
+    #dicas-moda iframe {
+        border: 2px solid  rgb(148, 148, 64);
+        box-shadow: 1px 1px 5px black;
+        width: 300px;
+        margin-top: 30px;
+    }
+
 
 }
 

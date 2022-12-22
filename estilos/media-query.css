@@ -18,12 +18,27 @@ Grandes telas: acima de 1200px
     
     }
 
+    #full-banner:hover {
+        background-image: url(../imagens/bannermobile1.png);
+        width: 100vw;
+        transition: 0.5s;
+    }
+
     #dicas-moda iframe {
         border: 2px solid  rgb(148, 148, 64);
         box-shadow: 1px 1px 5px black;
         width: 355px;
         height: 200px;
         margin-top: 30px;
+    }
+    
+    
+    
+    .slide {
+        border-radius: 50%;
+        width: 50px;
+        box-sizing: border-box;
+        
     }
 
 }

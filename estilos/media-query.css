@@ -15,7 +15,6 @@ Grandes telas: acima de 1200px
         width: 100vw;
         height: 400px;
         margin-left 
-    
     }
 
     #full-banner:hover {
@@ -24,9 +23,12 @@ Grandes telas: acima de 1200px
         transition: 0.5s;
     }
 
+    #mini-banner h2 {
+        font-size: 1.3em;
+    }
+
     #produtos-novidades h2 {
         font-size: 1.3em;   
-    
     }
 
     #slide-departamento {
@@ -36,31 +38,28 @@ Grandes telas: acima de 1200px
     #slide-departamento h2 {
         font-size: 1.3em;
     }
-    
+
+    .lislide {
+        padding: 5px;
+    }
     
     .slide {
         border-radius: 50%;
         width: 50px;
-        box-sizing: border-box;
-        
+        box-sizing: border-box;  
     }
 
     .slide:hover {
-        box-shadow: none;
-        
-        
+        box-shadow: none;  
     }
     
     .lislide:hover p {
         color: rgb(54, 54, 54);
-        text-shadow: none;
-        
-        
+        text-shadow: none; 
     }
     
     .lislide:hover img {
         box-shadow: none;
-        
     }
 
 

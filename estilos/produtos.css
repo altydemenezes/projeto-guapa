@@ -69,6 +69,12 @@
     padding: 5px;
     
     
+    
+}
+
+.li-cabecalho a {
+    text-decoration: none;
+    text-transform: none;
 }
 
 .li-cabecalho:hover {

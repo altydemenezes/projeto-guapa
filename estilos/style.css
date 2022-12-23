@@ -73,6 +73,11 @@ body {
     
 }
 
+.li-cabecalho a {
+    text-decoration: none;
+    text-transform: none;
+}
+
 .li-cabecalho:hover {
     background-color: rgb(148, 148, 64);
     color: white;

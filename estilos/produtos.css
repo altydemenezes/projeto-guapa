@@ -778,18 +778,57 @@ form {
     display: block;
 }
 
-form label {
+form label, form legend {
     display: block;
     font-weight: bold;
     font-size: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     
 }
 
 
-form input {
+.input-padrao {
     display: block;
     margin-bottom: 20px;
     padding: 5px 10px;
-    width: 500px;
+    width: 300px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 30%;
+    padding: 15px 0;
+    background: rgb(20, 96, 20);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.enviar:hover {
+    background: rgb(29, 138, 29);
+    transform: scale(1.1);
+
+}
+
+table {
+    margin: 20px;
+}
+
+thead {
+    background: grey;
+    color: white;
+    font-weight: bold;
+
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px
 }
